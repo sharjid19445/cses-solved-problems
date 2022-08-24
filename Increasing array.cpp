@@ -4,14 +4,15 @@
  */
 #include<bits/stdc++.h>
 typedef long long ll;
+typedef long int li;
 #define REP(i,a,b) for (int i = a; i < b; i++)
 
 using namespace std;
 
 int main(){
-   long int x,cnt=0,cnt1;
+   li x,cnt=0;
    cin>>x;
-   long int arr[x];
+   li arr[x];
 
     REP(i,0,x){
         cin>>arr[i];
